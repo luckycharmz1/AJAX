@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Charmaine Washington, GDS089, Lab 11B, November 14 
+    -->
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="lab11b.css"> 
+    <title>Charmaine's Web Page</title>
+    <style>
+    /* styles go here */
+
+    </style>
+</head>
+
+<body>
+    <h1>Composers</h1>
+    
+    <form id="searchForm">
+        <label for="genre">Genre:</label>
+        <select id="genre" name="genre">
+            <option value="">Any</option>
+            <option value="classical">Classical</option>
+            <option value="jazz">Jazz</option>
+            <option value="pop">Pop</option>
+            <option value="rock">Rock</option>
+        </select>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">Any</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+        </select>
+
+        <input type="submit" value="Search">
+    </form>
+
+    <div id="results" class="results">
+        <!-- search results will go here -->
+    </div>
+
+    <script src="lab11b.js"></script>
+</body>
+</html>
